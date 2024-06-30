@@ -20,4 +20,12 @@ html,body{
 }
 .search-bar{
     display: flex;
+    padding: 10px 20px;
+    min-width: 200px;
+}
+.search-bar input{
+    min-width: 410px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0.5px solid #ccc;
 }
