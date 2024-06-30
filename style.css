@@ -18,6 +18,7 @@ html,body{
     justify-content: space-between;
     padding: 15px;
     align-items: center;
+    padding-left: 20px;
 }
 .search-bar{
     display: flex;
@@ -57,11 +58,13 @@ html,body{
     margin-left: 15px;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
 }
 .tag1{
     border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 3px 13px;
+    border-radius: 30px;
+    padding: 3px 10px;
     background-color: black;
     color: white;
 }
@@ -71,7 +74,7 @@ html,body{
     padding: 2px 8px;
     background-color: #f5f5f5;
 }
-
+aside
 
 
 
@@ -86,5 +89,8 @@ html,body{
     }
     .search-bar{
         margin: 0 auto;
+    }
+    hr{
+        display: none;
     }
 }
